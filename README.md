@@ -34,7 +34,7 @@ I've prepared a custom 3D printed case modeled in Blender based on [this](https:
 
 ## Program and installation
 
-The program was written in Python using *Thonny IDE* based on an example program from 16x10 matrix LED grid SDK. Use Thonny IDE to install MicroPython on your Raspberry Pi Pico and then upload everything in the *Pico* folder. You can replace *output.raw* file with your raw video. Additionally, I've implemented BOOTSEL button handling so you can change video brightness on the fly.
+The program was written in Python using *Thonny IDE* based on an example program from 16x10 matrix LED grid SDK. Use Thonny IDE to install MicroPython on your Raspberry Pi Pico and then upload everything in the [pico](pico) folder. You can replace *output.raw* file with your raw video. Additionally, I've implemented BOOTSEL button handling so you can change video brightness on the fly.
 
 This is how it works in daylight:
 
