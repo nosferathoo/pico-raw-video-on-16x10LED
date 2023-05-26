@@ -19,7 +19,7 @@ https://github.com/nosferathoo/pico-raw-video-on-16x9LED/assets/2834098/7fbb9744
 
 ## Video
 
-The video has to be converted to a 16x10 raw RGB video. I wrote a simple converter (render/png2raw.py) that reads already prepared PNG files with 16x10 video frames from the current directory and outputs *output.raw* file. As a video source, I prepared and rendered animation using Blender. *video.blend* file contains the source Blender file, but you can use any video resized to 16x10 and dumped to separate png frames.
+The video has to be converted to a 16x10 raw RGB video. I wrote a simple [converter](render/png2raw.py) that reads already prepared PNG files with 16x10 video frames from the current directory and outputs *output.raw* file. As a video source, I prepared and rendered animation using Blender. [video.blend](video.blend) file contains the source Blender file, but you can use any video resized to 16x10 and dumped to separate png frames.
 
 My video:
 
@@ -27,7 +27,7 @@ My video:
 
 ## Case
 
-I've prepared a custom 3D printed case modeled in Blender based on [this](https://learn.adafruit.com/raspberry-pi-pico-case/3d-printing) model. The modification includes the possibility to rotate Pico, symmetrical USB cable entry, and back holes to thread a piece of cloth. In my first print, I noticed that Pico was not fitting very well because the USB port collided with supports for the Pico. I already modified it but probably you will still need to modify the USB entry holes to fit your cable. The source model (*case.blend*) is already print-friendly you just need to export it to STL. It is better to print the base in dark material and the cover in brighter, preferably white so it will not block LED lights.
+I've prepared a custom 3D printed case modeled in Blender based on [this](https://learn.adafruit.com/raspberry-pi-pico-case/3d-printing) model. The modification includes the possibility to rotate Pico, symmetrical USB cable entry, and back holes to thread a piece of cloth. In my first print, I noticed that Pico was not fitting very well because the USB port collided with supports for the Pico. I already modified it but probably you will still need to modify the USB entry holes to fit your cable. The [source model](case.blend) is already print-friendly you just need to export it to STL. It is better to print the base in dark material and the cover in brighter, preferably white so it will not block LED lights.
 
 <img width="300" alt="Case model" src="https://github.com/nosferathoo/pico-raw-video-on-16x10LED/assets/2834098/081eb807-30a7-46da-bba5-80b51c940716">
 <img width="300" alt="Case model" src="https://github.com/nosferathoo/pico-raw-video-on-16x10LED/assets/2834098/95818014-5dcf-4eda-8868-5806d2291f0c">
