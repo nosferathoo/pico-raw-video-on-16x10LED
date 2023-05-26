@@ -6,6 +6,11 @@ Result:
 
 https://github.com/nosferathoo/pico-raw-video-on-16x9LED/assets/2834098/7fbb9744-5cb3-474c-91ce-1c2439cd7bbe
 
+  * [Requirements](#requirements)
+  * [Video](#video)
+  * [Case](#case)
+  * [Program and installation](#program-and-installation)
+
 ## Requirements
 
 1. Raspberry Pi Pico with already soldered headers [ordered here](https://botland.com.pl/moduly-i-zestawy-do-raspberry-pi-pico/21573-raspberry-pi-pico-h-rp2040-arm-cortex-m0-ze-zlaczami-5056561803180.html)
